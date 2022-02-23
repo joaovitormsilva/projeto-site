@@ -12,6 +12,14 @@ h1{
     font-size: 40px;
    
 }
+.row{
+    width: 100%;
+}
+.col-1 img{
+    margin:auto;
+    display:inline-block;
+    width: 100%;
+}
 h2{
     clear: both;
     text-align: center;
@@ -37,6 +45,10 @@ a:hover{
     color:rgb(92, 24, 24);
     border-bottom:1px solid rgb(92, 24, 24);
     
+}
+.portifolio a:hover{
+    border: none;
+   
 }
 ul{
    margin-left:25%;
@@ -73,4 +85,22 @@ header p{
 }
 main p{
     text-align: justify;
+}
+.portifolio .instrucao{
+    font-size: 15px;
+}
+.portifolio .col-1{
+    margin:0;
+    width: auto;
+    
+}
+.portifolio .explicacao-projeto{
+    color:rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: center;
+    border-top:2px solid red;
+    border-bottom:2px solid red;
+    width:40%;
+    padding:10px;
+    margin: 15px auto;
 }
