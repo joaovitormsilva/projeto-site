@@ -157,6 +157,7 @@ main .main-informacoes{
     padding:10px;
     margin: 35px auto;
 }
+
 .portifolio .explicacao-projeto:hover{
     transition: all .5s linear;
 color:white;
