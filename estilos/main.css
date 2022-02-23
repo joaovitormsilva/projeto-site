@@ -4,6 +4,18 @@ html, body,h1{
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1.5px;
 }
+
+.coluna1{
+
+    float:left;
+    width:40%;
+    margin-bottom:25px;
+    text-align: justify;
+}
+.coluna1:first-child{
+    margin-left:6%;
+    margin-right: 11%;
+}
 main{
     width:80%;
     margin:auto;
@@ -31,9 +43,15 @@ h2{
     margin-left:42%;
 }
 h3{
-    margin-top:35px;
     text-align: center;
+    text-transform: uppercase;
+    font-family:Open Sans;
+    font-size:20px;
+    border-bottom: 2px solid red;
+    width:20%;
+    margin-left:42%;
 }
+
 a{
     color:rgb(250, 0, 0); 
 }
@@ -50,7 +68,7 @@ a:hover{
     border: none;
    
 }
-ul{
+.address-ul{
    margin-left:25%;
 }
 li{
@@ -61,7 +79,7 @@ li{
     color:rgb(255, 0, 0);
 }
 
-li:nth-child(2){
+.address-ul li:nth-child(2){
     margin:0 15px 0 15px;
 }
 
@@ -86,12 +104,42 @@ header p{
 main p{
     text-align: justify;
 }
+.section-competencias{
+    box-sizing: border-box;
+    position: relative;
+    margin:0;
+    padding: 0;
+    background-color:#FFF5EE;
+    overflow: auto;
+}
+main .main-informacoes{
+    text-align: center;
+}
+
+
+.lista-caracteristicas li{
+    box-sizing: border-box;
+    color:black;
+    font-size: 18px;
+    display:block;
+    padding:10px;
+}
+.icon-cor{
+    color:rgb(145, 0, 0);
+}
+
+
+.portifolio{
+    clear: both;
+    background-color: #FFF5EE;
+}
 .portifolio .instrucao{
     font-size: 15px;
+    text-align: center;
 }
 .portifolio .col-1{
-    margin:0;
-    width: auto;
+    margin:auto;
+    width: 90%;
     
 }
 .portifolio .explicacao-projeto{
@@ -103,4 +151,10 @@ main p{
     width:40%;
     padding:10px;
     margin: 15px auto;
+}
+.portifolio .explicacao-projeto:hover{
+    transition: all .5s linear;
+color:white;
+background-color: rgb(15, 17, 31);
+border: 2px solid white;
 }
