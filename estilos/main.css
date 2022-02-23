@@ -40,7 +40,9 @@ h2{
     font-size:25px;
     border-bottom: 2px solid red;
     width:20%;
-    margin-left:42%;
+    margin: 20px 0 40px 42%;
+    padding-top:10px;
+   
 }
 h3{
     text-align: center;
@@ -50,6 +52,7 @@ h3{
     border-bottom: 2px solid red;
     width:20%;
     margin-left:42%;
+    margin-bottom:30px;
 }
 
 a{
@@ -69,6 +72,7 @@ a:hover{
    
 }
 .address-ul{
+    margin-top:30px;
    margin-left:25%;
 }
 li{
@@ -107,12 +111,13 @@ main p{
 .section-competencias{
     box-sizing: border-box;
     position: relative;
-    margin:0;
+    margin:40px 0 40px;
     padding: 0;
     background-color:#FFF5EE;
     overflow: auto;
 }
 main .main-informacoes{
+    margin:10px 0 25px 0;
     text-align: center;
 }
 
@@ -150,7 +155,7 @@ main .main-informacoes{
     border-bottom:2px solid red;
     width:40%;
     padding:10px;
-    margin: 15px auto;
+    margin: 35px auto;
 }
 .portifolio .explicacao-projeto:hover{
     transition: all .5s linear;
